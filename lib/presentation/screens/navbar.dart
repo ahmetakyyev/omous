@@ -97,7 +97,7 @@ class _NavBarState extends State<NavBar> {
       type: BottomNavigationBarType.fixed,
       onTap: (index) => _onItemTap(index),
       currentIndex: _selectedIndex,
-      selectedItemColor: HexColor('#44785F'),
+      selectedIconTheme: IconThemeData(size: 28),
       showSelectedLabels: false,
       showUnselectedLabels: false,
       //selectedLabelStyle: TextStyle(fontWeight: FontWeight.w500),
